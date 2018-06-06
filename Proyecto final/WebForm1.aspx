@@ -347,7 +347,7 @@ Vale la pena visitar CAMPO VERDE.
 				<label for="name">Nombre</label>
 			</div>
 			<div class="col span-2-of-3">
-				<input type="text" name="name" placeholder="Tu nombre" require>
+				<input type="text" name="name" placeholder="Tu nombre" required>
 			</div>
 			<div class="row">
 				<div class="col span-1-of-3">
