@@ -55,7 +55,7 @@
 	<div class="row">
 
 
-		<h2> Ven y descubre un paraizo en el corazon de la sierra</h2>
+		<h2>Ven y descubre un paraizo en el corazon de la sierra</h2>
 		<p class="lc">Hola, somos Hacienda Campo verde, tu centro de vacaciones favorito.</p>
 		
 
