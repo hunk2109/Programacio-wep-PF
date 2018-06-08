@@ -75,7 +75,7 @@
 			<p>Ven y disfruta de nuestras escurciones a las distintas bellesas de la seirra </p>
 		</div><div class="col span-1-of-3 box">
 			
-			<i class="ion-ios-infinite ib"></i>
+			<i class="ion-social-usd ib"></i>
 			<h3>Cuidamos de tu bolsillo</h3>
 			<p>Nuestros precios se acomodan a todas las personas gracias nuestros bajos precios </p>
 		
