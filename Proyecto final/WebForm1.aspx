@@ -348,6 +348,7 @@ Vale la pena visitar CAMPO VERDE.
         <div class="col span-1-of-2">
             
             <div>
+                <i class="ion-compass ib"></i>
                 <p>Carretera Principal, Inoa, Santiago, 51000, Dominican Republic</p>
             
             </div>
@@ -356,6 +357,7 @@ Vale la pena visitar CAMPO VERDE.
         <div class="col span-1-of-2">
             
             <div>
+                <i class="ion-ios-telephone ib"></i>
                 <p>Telefono: (829) 635-8000</p>
             
             </div>
