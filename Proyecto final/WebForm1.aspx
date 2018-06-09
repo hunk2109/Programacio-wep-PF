@@ -337,6 +337,7 @@ Vale la pena visitar CAMPO VERDE.
 <section class="section-form">
 
 	<div class="row">
+        <i class ="ion-compass ib"></i>
         <h2>Ven y adentrate a lo mejor de San Jose de las Matas</h2>
     
     
