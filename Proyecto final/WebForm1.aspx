@@ -337,7 +337,7 @@ Vale la pena visitar CAMPO VERDE.
 <section class="section-form">
 
 	<div class="row">
-        <i class ="ion-compass ib"></i>
+       
         <h2>Ven y adentrate a lo mejor de San Jose de las Matas</h2>
     
     
@@ -348,6 +348,7 @@ Vale la pena visitar CAMPO VERDE.
         <div class="col span-1-of-2">
             
             <div>
+                 <i class ="ion-compass ib"></i>
                 <p>Carretera Principal, Inoa, Santiago, 51000, Dominican Republic</p>
             
             </div>
@@ -356,6 +357,7 @@ Vale la pena visitar CAMPO VERDE.
         <div class="col span-1-of-2">
             
             <div>
+                <i class="ion-android-call ib"></i>
                 <p>Telefono: (829) 635-8000</p>
             
             </div>
