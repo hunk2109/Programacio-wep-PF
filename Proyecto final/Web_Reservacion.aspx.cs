@@ -13,7 +13,7 @@ namespace Hotel
     public partial class Web_Reservacion : System.Web.UI.Page
     {
 
-        MySqlConnection conn = new MySqlConnection(@"Data Source=Localhost;DataBase=HOTEL;UID=root;PWD=;");
+        MySqlConnection conn = new MySqlConnection("server=localhost;user id=root;password=genobreaker66;persistsecurityinfo=True;port=3306;database=hotel;SslMode=none");
 
 
 
