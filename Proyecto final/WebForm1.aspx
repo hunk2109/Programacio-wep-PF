@@ -1,13 +1,11 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Proyecto_final.WebForm1" %>
-
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
 	<meta charset="utf-8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" type="text/css" href="recursos/css/Grid.css"
+    <link rel="stylesheet" type="text/css" href="recursos/css/Grid.css">
     <link rel="stylesheet" type="text/css" href="recursos/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="recursos/css/animate.css">
     <link rel="stylesheet" type="text/css" href="recursos/css/ionicons.min.css">
@@ -339,66 +337,31 @@ Vale la pena visitar CAMPO VERDE.
 <section class="section-form">
 
 	<div class="row">
-		<h2>Queremos saber que piensas de nostros</h2>
-	</div>
-	<div class="row">
-		<form method="post" action="#" class="contact">
-			<div class="col span-1-of-3">
-				<label for="name">Nombre</label>
-			</div>
-			<div class="col span-2-of-3">
-				<input type="text" name="name" placeholder="Tu nombre" required>
-			</div>
-			<div class="row">
-				<div class="col span-1-of-3">
-					<label>Email</label>
-				</div>
-				<div class="col span-2-of-3">
-					<input type="email" name="email" id="email" placeholder="Tu Correo" required>
-				</div>
-				<div class="row">
-				<div class="col span-1-of-3">
-					<label>Como supiste de nostros</label>
-				</div>
-				<div class="col span-2-of-3">
-					<select name="fint-us" id="fint-us">
-						<option value="friends">Amigos</option>
-						<option value="redsoc">Redes Sociales</option>
-						<option value="otro">Otro</option>
-					</select>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col span-1-of-3">
-					<label>Noticias</label>
-
-				</div>
-				<div class="col span-2-of-3">
-					<input type="checkbox" name="news" id="news" checked> Si por favor
-				</div>
-				
-				</div>
-				<div class="row">
-					<div class="col span-1-of-3">
-						<label>Dinos que piensas</label>
-					</div>
-					<div class="col span-2-of-3">
-						<textarea name="message" placeholder="Tu mensage"></textarea>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col span-1-of-3">
-						<label>&nbsp;</label>
-					</div>
-					<div class="col span-2-of-3">
-						<input type="submit" name="send">
-					</div>
-				</div>
+        <h2>Ven y adentrate a lo mejor de San Jose de las Matas</h2>
+    
+    
+    
+    </div>
+    <div class="row">
+        
+        <div class="col span-1-of-2">
+            
+            <div>
+                <p>Carretera Principal, Inoa, Santiago, 51000, Dominican Republic</p>
+            
             </div>
-			
-		</form>
-	</div>
+        
+        </div>
+        <div class="col span-1-of-2">
+            
+            <div>
+                <p>Telefono: (829) 635-8000</p>
+            
+            </div>
+        
+        </div>
+    
+    </div>
 	
 </section>
 <footer>
@@ -436,4 +399,3 @@ Vale la pena visitar CAMPO VERDE.
 
 </body>
 </html>
-
