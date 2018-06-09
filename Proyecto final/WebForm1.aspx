@@ -21,7 +21,7 @@
 		<nav>
             
             <div class="row">
-                <img src="recursos/img/logo.png" alt="logo" class="logo1111">
+                <img src="recursos/img/logo.png" alt="logo" class="logo">
                 <ul class="main-nav">
                     <li><a href="#">Reservaciones</a> </li>
                     <li><a href="#">Iniciar sesion</a> </li>
