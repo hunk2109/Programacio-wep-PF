@@ -519,3 +519,15 @@ footer p {
 .js-row-se .animated, .js-foto .animated, .js-plans .animated {
     opacity: 1;
 }
+
+.frn2{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/head.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    
+}
+
+.prueba{
+    color:#fff;
+}
