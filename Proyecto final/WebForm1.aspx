@@ -37,8 +37,8 @@
 		<div class="eslogan-tex-box">
 
 			<h1>Donde la Naturalesa esta primero</h1>
-            <a class="btn btn-full js-btn-full" href="#">Rerservaciones</a>
-            <a class="btn  btn-ghost js-btn-ghost" href="#">Quienes somos?</a>
+            <a class="btn btn-full js-btn-full" href="#">Reservaciones</a>
+            <a class="btn  btn-ghost js-btn-ghost" href="#">¿Quiénes somos?</a>
 
 
 
