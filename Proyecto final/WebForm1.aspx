@@ -14,6 +14,17 @@
 
 	
 	<title>Campo Verde</title>
+    <style type="text/css">
+        .auto-style1 {
+            position: absolute;
+            width: 1140px;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50,-50);
+            transform: translate(-50%,-50%);
+            background-color: #FFFFFF;
+        }
+    </style>
 </head>
 <body>
 	<header>
@@ -34,9 +45,9 @@
             </div>
         
         </nav>
-		<div class="eslogan-tex-box">
+		<div class="auto-style1">
 
-			<h1>Donde la Naturalesa esta primero</h1>
+			<h1>Donde la NaturaleZa esta primero</h1>
             <a class="btn btn-full js-btn-full" href="#">Reservaciones</a>
             <a class="btn  btn-ghost js-btn-ghost" href="#">¿Quiénes somos?</a>
 
@@ -65,13 +76,13 @@
 		<div class="col span-1-of-3 box">
 			
 			<i class="ion-ios-home ib"></i>
-			<h3>Cientete como en casa</h3>
-			<p>En nuestras comodas instalaciones te sentiras como en casa,gracias a nuestro personal que estara ahi para tus necesidades </p>
+			<h3>Siéntete como en casa</h3>
+			<p>En nuestras cómodas instalaciones te sentirás como en casa, gracias a nuestro personal que estará ahí para tus necesidades </p>
 		</div><div class="col span-1-of-3 box">
 			
 			<i class="ion-ios-infinite ib"></i>
-			<h3>Ven y adentrate a lo mas puro de la sierra</h3>
-			<p>Ven y disfruta de nuestras escurciones a las distintas bellesas de la seirra </p>
+			<h3>Ven y adéntrate a lo más puro de la sierra</h3>
+			<p>Ven y disfruta de nuestras excurciones a las distintas bellezas de la sierra </p>
 		</div><div class="col span-1-of-3 box">
 			
 			<i class="ion-ios-infinite ib"></i>
@@ -195,7 +206,7 @@
 
 	<div class="row">
 
-		<h2>Como disfrutar de esta experiencia inolvidable? &mdash; Tan simple como 1,2,3</h2>
+		<h2>¿Como disfrutar de esta experiencia inolvidable? &mdash; Tan simple como 1,2,3</h2>
 		
 
 
@@ -207,15 +218,15 @@
 		<div class="col span-1-of-2 pasos-box">
 			<div class="wors-s">
 				<div>1</div>
-				<p>Escoge el tipo de subscripcion que se acomode a ti</p>
+				<p>Escoge el tipo de subscripción que se acomode a ti</p>
 			</div>
 			<div class="wors-s ">
 				<div>2</div>
-				<p>Renta hermosas cabañas para una experiencia inolbidable</p>
+				<p>Renta hermosas cabañas para una experiencia inolvidable</p>
 			</div>
 			<div class="wors-s ">
 				<div>3</div>
-				<p>Por tan solo 300 pesos/persona podras disfurtar de la experienca campo verde</p>
+				<p>Por tan solo 300 pesos/persona podrás disfrutar de la experienca campo verde</p>
 			</div>
 		</div>
 	</div>
@@ -257,7 +268,7 @@ Vale la pena visitar CAMPO VERDE.
 <section class="section-p js-sect-p" id="plans">
 
 	<div class="row">
-            <h2>Empiesa a disfrutar</h2>
+            <h2>Empieza a disfrutar</h2>
             
             </div>
             <div class="row">
@@ -265,14 +276,14 @@ Vale la pena visitar CAMPO VERDE.
                     <div class="plans-box js-plans">
                         <div>
                             <h3>VIP</h3>
-                            <p class="plan-price">2500$<span>/dia/persona</span> </p>
+                            <p class="plan-price">2500$<span>día/persona</span> </p>
                             
                         </div>
                         <div >
                             <ul>
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Acceso a todas las instalaciones </li>
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Todo incluido</li>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Acceso a vevidas exoticas</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Acceso a bebidas exóticas</li>
                                
                                 
                             </ul>
@@ -290,13 +301,13 @@ Vale la pena visitar CAMPO VERDE.
                     <div class="plans-box">
                         <div>
                             <h3>Pro</h3>
-                            <p class="plan-price">1000$ <span>/ dia/persona</span></p>
+                            <p class="plan-price">1000$ <span>/ día/persona</span></p>
                             
                         </div>
                         <div>
                             <ul>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Acceso a todas la intalaciones</li>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Almuerso incluido</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Acceso a todas las intalaciones</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Almuerzo incluido</li>
                                 
                                 
                             
@@ -315,12 +326,12 @@ Vale la pena visitar CAMPO VERDE.
                     <div class="plans-box">
                         <div>
                             <h3>Visitante</h3>
-                            <p class="plan-price">300$ <span>/persona</span> </p>
+                            <p class="plan-price">300$ <span>día/persona</span> </p>
                             <p class="price-meal">&nbsp;</p>
                         </div>
                         <div>
                             <ul>
-                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Acceso a la instalaciones principales</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Acceso a las instalaciones principales</li>
                                
                                 
                             
@@ -338,7 +349,7 @@ Vale la pena visitar CAMPO VERDE.
 
 	<div class="row">
        
-        <h2>Ven y adentrate a lo mejor de San Jose de las Matas</h2>
+        <h2>Ven y adéntrate a lo mejor de San José de las Matas</h2>
     
     
     
@@ -358,7 +369,7 @@ Vale la pena visitar CAMPO VERDE.
             
             <div>
                 <i class="ion-android-call ib"></i>
-                <p>Telefono: (829) 635-8000</p>
+                <p>Teléfono: (829) 635-8000</p>
             
             </div>
         
@@ -371,7 +382,7 @@ Vale la pena visitar CAMPO VERDE.
 	<div class="row">
 		<div class="col span-1-of-2">
 		<ul class="footer-nav">
-			<li><a href="#">Sobre Nostros</a></li>
+			<li><a href="#">Sobre Nosotros</a></li>
 			<li><a href="#">Blog</a></li>
 			<li><a href="#">Press</a></li>
 		</ul>
