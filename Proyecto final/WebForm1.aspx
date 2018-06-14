@@ -45,7 +45,7 @@
             </div>
         
         </nav>
-		<div class="auto-style1">
+		<div class="eslogan-tex-box">
 
 			<h1>Donde la NaturaleZa esta primero</h1>
             <a class="btn btn-full js-btn-full" href="#">Reservaciones</a>
