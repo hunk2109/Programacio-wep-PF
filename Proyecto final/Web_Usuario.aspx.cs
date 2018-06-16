@@ -13,7 +13,7 @@ namespace Hotel
     public partial class Web_Usuario : System.Web.UI.Page
     {
 
-        MySqlConnection cn = new MySqlConnection("server = localhost; user id = root; password=genobreaker66;persistsecurityinfo=True;port=3306;database=hotel;SslMode=none");
+        MySqlConnection cn = new MySqlConnection("server = localhost; user id = root; password=12345678;persistsecurityinfo=True;port=3306;database=hotel;SslMode=none");
 
 
         protected void Page_Load(object sender, EventArgs e)

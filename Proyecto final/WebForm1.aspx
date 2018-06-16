@@ -36,7 +36,7 @@
                 <ul class="main-nav">
                     <li><a href="Web_Reservacion.aspx">Reservaciones</a> </li>
                     <li><a href="Web_Usuario.aspx">Iniciar sesion</a> </li>
-                    <li><a href="#">Registrarse</a> </li>
+                    <li><a href="Web_Registrarse">Registrarse</a> </li>
                     
                 
                 </ul>
@@ -47,7 +47,7 @@
         </nav>
 		<div class="eslogan-tex-box">
 
-			<h1>Donde la NaturaleZa esta primero</h1>
+			<h1>Donde la Naturaleza esta primero</h1>
             <a class="btn btn-full js-btn-full" href="#">Reservaciones</a>
             <a class="btn  btn-ghost js-btn-ghost" href="#">¿Quiénes somos?</a>
 
@@ -65,7 +65,7 @@
 	<div class="row">
 
 
-		<h2> Ven y descubre un paraiSo en el corazón de la sierra</h2>
+		<h2> Ven y descubre un paraiso en el corazón de la sierra</h2>
 		<p class="lc">Hola, somos Hacienda Campo verde, tu centro de vacaciones favorito.</p>
 		
 

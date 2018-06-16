@@ -191,6 +191,7 @@
     <Content Include="recursos\fonts\ionicons.eot" />
     <Content Include="recursos\fonts\ionicons.ttf" />
     <Content Include="recursos\fonts\ionicons.woff" />
+    <Content Include="Web_Registrarse.aspx" />
     <Content Include="Web_Reservacion.aspx" />
     <Content Include="Web_Usuario.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -283,6 +284,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web_Registrarse.aspx.cs">
+      <DependentUpon>Web_Registrarse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web_Registrarse.aspx.designer.cs">
+      <DependentUpon>Web_Registrarse.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web_Reservacion.aspx.cs">
       <DependentUpon>Web_Reservacion.aspx</DependentUpon>
