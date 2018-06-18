@@ -10,7 +10,7 @@
 namespace Proyecto_final {
     
     
-    public partial class Web_Registrarse {
+    public partial class Web_Registro {
         
         /// <summary>
         /// Control form1.
@@ -20,15 +20,6 @@ namespace Proyecto_final {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
-        /// Control Label1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
         /// Control txtnombrehuesp.
