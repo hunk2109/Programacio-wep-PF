@@ -62,15 +62,17 @@
             <tr>
                 <td>País:</td>
                 <td>
-                    <asp:DropDownList ID="ddlpaishuesp" runat="server">
-                        <asp:ListItem Value="IdPais">REPUBLICA DOMINICANA</asp:ListItem>
-                        <asp:ListItem Value="IdPais">PUERTO RICO</asp:ListItem>
+                    <asp:DropDownList ID="ddlpaishuesp" runat="server" AppendDataBoundItems="true">
+                        <asp:ListItem Value=""></asp:ListItem>
+                        <asp:ListItem Value="1">REPUBLICA DOMINICANA</asp:ListItem>
+                        <asp:ListItem Value="2">PUERTO RICO</asp:ListItem>
                         <asp:ListItem Value="3">COLOMBIA</asp:ListItem>
                     </asp:DropDownList>
                 </td>
                 <td>Ciudad:</td>
                 <td>
-                    <asp:DropDownList ID="ddlciudadhuesp" runat="server">
+                    <asp:DropDownList ID="ddlciudadhuesp" runat="server" AppendDataBoundItems="true">
+                        <asp:ListItem Value=""></asp:ListItem>
                         <asp:ListItem Value="1">SANTIAGO</asp:ListItem>
                         <asp:ListItem Value="2">LA VEGA</asp:ListItem>
                         <asp:ListItem Value="3">PUERTO PLATA</asp:ListItem>
@@ -78,7 +80,8 @@
                 </td>
                 <td>Sector:</td>
                 <td>
-                    <asp:DropDownList ID="ddlsectorhuesp" runat="server">
+                    <asp:DropDownList ID="ddlsectorhuesp" runat="server" AppendDataBoundItems="true">
+                        <asp:ListItem Value=""></asp:ListItem>
                         <asp:ListItem Value="1">LOS JARDINES</asp:ListItem>
                         <asp:ListItem Value="2">LA ESMERALDA</asp:ListItem>
                         <asp:ListItem Value="3">LAS COLINAS</asp:ListItem>
@@ -87,7 +90,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="Button1" runat="server" Text="Enviar" />
+                    <asp:Button ID="Button1" runat="server" Text="Enviar" OnClick="Button1_Click" OnLoad="Button1_Load" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
