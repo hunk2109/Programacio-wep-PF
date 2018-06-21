@@ -32,7 +32,7 @@ namespace Hotel
 
             daa.Fill(dss, "tipousuario");
             cbousuario.DataSource = dss.Tables[0].DefaultView;
-            cbousuario.DataTextField = "descriptipousuario";
+            cbousuario.DataTextField = "descripusuario";
             cbousuario.DataValueField = "idtipousuario";
 
             cbousuario.DataBind();
@@ -60,7 +60,7 @@ namespace Hotel
 
 
 
-                Response.Redirect("Web_Menu.aspx");
+                Response.Redirect("Wep_menu.aspx");
 
    
 

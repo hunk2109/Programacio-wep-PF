@@ -291,7 +291,7 @@ Vale la pena visitar CAMPO VERDE.
                             </ul>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-full">Reserva ya!</a>
+                            <a href="Web_Reservacion.aspx" class="btn btn-full">Reserva ya!</a>
                         </div>
                     
                     </div>
@@ -316,7 +316,7 @@ Vale la pena visitar CAMPO VERDE.
                             </ul>
                         </div>
                         <div>
-                            <a href="#" class="btn btn-ghost">Reserva ya!</a>
+                            <a href="Web_Reservacion.aspx" class="btn btn-ghost">Reserva ya!</a>
                         </div>
                     
                     </div>
