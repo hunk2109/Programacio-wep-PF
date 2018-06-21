@@ -36,7 +36,7 @@
                 <ul class="main-nav">
                     <li><a href="Web_Reservacion.aspx">Reservaciones</a> </li>
                     <li><a href="Web_Usuario.aspx">Iniciar sesion</a> </li>
-                    <li><a href="Web_Registrarse">Registrarse</a> </li>
+                    <li><a href="Web_Registro.aspx">Registrarse</a> </li>
                     
                 
                 </ul>
