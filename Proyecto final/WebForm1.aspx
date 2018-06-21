@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="recursos/css/animate.css">
     <link rel="stylesheet" type="text/css" href="recursos/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="recursos/css/style.css">
+    <link rel="stylesheet" type="text/css" href="recursos/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400" rel="stylesheet">
 
 	

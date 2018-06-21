@@ -173,6 +173,7 @@
     <Content Include="recursos\css\ionicons.css" />
     <Content Include="recursos\css\ionicons.min.css" />
     <Content Include="recursos\css\normalize.css" />
+    <Content Include="recursos\css\queries.css" />
     <Content Include="recursos\css\style.css" />
     <Content Include="recursos\fonts\ionicons.svg" />
     <Content Include="recursos\img\1.jpg" />
