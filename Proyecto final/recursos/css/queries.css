@@ -94,24 +94,30 @@
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
     
-    .long-copy {
+    .lc {
         width: 100%;
         margin-left: 0%;
     }
     
     .app-screen { width: 40%; }
-    .steps-box:first-child { text-align: center; }
-    
-    .works-step div {
+    .pasos-box:first-child {
+        text-align: center;
+    }
+
+    .wors-s div {
         height: 40px;
         width: 40px;
         margin-right: 15px;
         padding: 4px;
         font-size: 120%;
     }
-    
-    .works-step { margin-bottom: 20px; }
-    .works-step:last-of-type { margin-bottom: 20px; }
+
+    .wors-s {
+        margin-bottom: 20px;
+    }
+        .wors-s:last-of-type {
+            margin-bottom: 20px;
+        }
     
 }
 

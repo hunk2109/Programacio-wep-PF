@@ -34,13 +34,14 @@
             
             <div class="row">
                 <img src="recursos/img/logo.png" alt="logo" class="logo">
-                <ul class="main-nav">
+                <ul class="main-nav js-main-nav">
                     <li><a href="Web_Reservacion.aspx">Reservaciones</a> </li>
                     <li><a href="Web_Usuario.aspx">Iniciar sesion</a> </li>
                     <li><a href="Web_Registro.aspx">Registrarse</a> </li>
                     
                 
                 </ul>
+                 <a class="movil-nav js-movil-nav"><i class="ion-navicon-round"></i> </a>
             
             
             </div>
