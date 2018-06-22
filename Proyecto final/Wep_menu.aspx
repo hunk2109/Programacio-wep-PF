@@ -52,6 +52,8 @@
         </asp:GridView>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Confirmar" />
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Poner en espera" />
+        <br />
+        <br />
     </form>
     <div class"row">
         

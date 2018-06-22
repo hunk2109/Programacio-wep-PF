@@ -12,7 +12,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="row"><h2>Confirmacionnes</h2></div>
-        <div>
+        <div class="col span-1-of-2">
 
             <asp:GridView ID="GridView1" runat="server" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
                 <AlternatingRowStyle BackColor="#CCCCCC" />
