@@ -68,5 +68,21 @@ namespace Proyecto_final
                 Response.Write(" < script > alert('error revise la reservacion!') </ Script > ");
             }
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string cmd = "INSERT INTO confirmacion(nombre_c,habitacion,fecha,checkin,checkout,estatus) VALUES('" + txtnomb.Text + "','" + txthab.Text + "','" + txtfec.Text + "','" + txtchi.Text + "','" + cho.Text + "','" + "En espera" + "')";
+            MySqlCommand insertion = new MySqlCommand(cmd, conn);
+            if (insertion.ExecuteNonQuery() > 0)
+            {
+                Response.Write("<script>alert('Reservacion en Espera') </Script>");
+            }
+
+            else
+            {
+                Response.Write(" < script > alert('error revise la reservacion!') </ Script > ");
+            }
+        }
     }
 }

@@ -5,11 +5,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="recursos/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="recursos/css/Grid.css" />
+    <title>Control de Reservacion</title>
+    
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="row">
+            <h2>Control de Reservacion</h2>
+        </div>
+        <div class="row">
+            
             <asp:Label ID="Label1" runat="server" Text="ID de la reservacion"></asp:Label>
             <asp:TextBox ID="txtid" runat="server"></asp:TextBox>
             <br />
@@ -44,6 +51,12 @@
             <SortedDescendingHeaderStyle BackColor="#000065" />
         </asp:GridView>
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Confirmar" />
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Poner en espera" />
     </form>
+    <div class"row">
+        
+         <a class="btn btn-full" href="confirmacion.aspx">Ver confirmaciones</a>
+
+    </div>
 </body>
 </html>
