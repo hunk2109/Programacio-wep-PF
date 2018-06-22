@@ -12,11 +12,26 @@
         <div>
             <asp:Label ID="Label1" runat="server" Text="ID de la reservacion"></asp:Label>
             <asp:TextBox ID="txtid" runat="server"></asp:TextBox>
+            <br />
+            Nombre<asp:TextBox ID="txtnomb" runat="server"></asp:TextBox>
+            <br />
+            <asp:Label ID="Label2" runat="server" Text="Habitacion"></asp:Label>
+            <asp:TextBox ID="txthab" runat="server"></asp:TextBox>
+            <br />
+            <asp:Label ID="Label3" runat="server" Text="Fecha"></asp:Label>
+            <asp:TextBox ID="txtfec" runat="server"></asp:TextBox>
+            <br />
+            <asp:Label ID="Label4" runat="server" Text="Checkin"></asp:Label>
+            <asp:TextBox ID="txtchi" runat="server"></asp:TextBox>
+            <br />
+            <asp:Label ID="Label5" runat="server" Text="Checkout"></asp:Label>
+            <asp:TextBox ID="cho" runat="server"></asp:TextBox>
+            <br />
         </div>
         <asp:GridView ID="gvc" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="None" BorderWidth="1px" CellPadding="3" GridLines="Vertical" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
             <AlternatingRowStyle BackColor="#DCDCDC" />
             <Columns>
-                <asp:ButtonField Text="seleccionar" />
+                <asp:CommandField ShowSelectButton="True" />
             </Columns>
             <FooterStyle BackColor="#CCCCCC" ForeColor="Black" />
             <HeaderStyle BackColor="#000084" Font-Bold="True" ForeColor="White" />

@@ -35,6 +35,11 @@ namespace Proyecto_final
 
 
                 txtid.Text = row.Cells[1].Text;
+                txtnomb.Text = row.Cells[2].Text;
+                txtfec.Text = row.Cells[3].Text;
+                txthab.Text = row.Cells[4].Text;
+                txtchi.Text = row.Cells[5].Text;
+                cho.Text = row.Cells[6].Text;
 
             }
 
@@ -49,8 +54,19 @@ namespace Proyecto_final
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-           
 
+            conn.Open();
+            string cmd = "INSERT INTO confirmacion(nombre_c,habitacion,fecha,checkin,checkout,estatus) VALUES('" + txtnomb.Text + "','" + txthab.Text+ "','" + txtfec.Text + "','" + txtchi.Text + "','" + cho.Text + "','"+"Confirmado"+"')";
+            MySqlCommand insertion = new MySqlCommand(cmd, conn);
+            if (insertion.ExecuteNonQuery() > 0)
+            {
+                Response.Write("<script>alert('Reservacion confirmada!') </Script>");
+            }
+
+            else
+            {
+                Response.Write(" < script > alert('error revise la reservacion!') </ Script > ");
+            }
         }
     }
 }
