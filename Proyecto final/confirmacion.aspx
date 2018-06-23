@@ -10,6 +10,7 @@
     <title></title>
 </head>
 <body>
+    <div class="row"><a class="btn btn-full" href="WebForm1.aspx">Volver al inicio</a></div>
     <form id="form1" runat="server">
         <div class="row"><h2>Confirmacionnes</h2></div>
         <div class="col span-1-of-2">
