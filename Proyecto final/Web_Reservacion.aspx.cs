@@ -28,8 +28,8 @@ namespace Hotel
 
             txthora.Text = System.DateTime.Now.ToLongTimeString();
 
-            txtfecha.Text = DateTime.Now.ToString("dd/MM/yyyy");
-
+            txtfecha.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            
             autogenerar();
             llenatipo();
 
@@ -267,7 +267,7 @@ namespace Hotel
 
 
 
-            MySqlCommand cmd = new MySqlCommand("insert into reservacion(idreservacion,idtiporeserva,idhuesped,numhabitac,fecha,checkin,checkout,idempleado,acompaniños,nombreniños,acompaadultos,nombreadultos,observacion) values(@idreservacion,@idtiporeserva,@idhuesped,@numhabitac,@fecha,@checkin,@checkout,@idempleado,@acompaniños,@nombreniños,@acompaadultos,@nombreadultos,@observacion)", conn);
+            MySqlCommand cmd = new MySqlCommand("insert into reservacion(idreservacion,idtiporeserva,idhuesped,numhabitac,Fecha,checkin,checkout,idempleado,acompaninos,nombreninos,acompaadultos,nombreadultos,observaciones) values(@idreservacion,@idtiporeserva,@idhuesped,@numhabitac,@fecha,@checkin,@checkout,@idempleado,@acompaniños,@nombreniños,@acompaadultos,@nombreadultos,@observacion)", conn);
 
 
 
@@ -333,6 +333,11 @@ namespace Hotel
         {
 
             Response.Redirect("Web_Menu.aspx");
+        }
+
+        protected void txthora_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

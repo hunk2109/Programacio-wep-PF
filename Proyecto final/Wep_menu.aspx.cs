@@ -19,7 +19,7 @@ namespace Proyecto_final
             DataTable dt = new DataTable();
 
 
-            da = new MySqlDataAdapter("SELECT idreservacion as ID, nombreadultos as Nombre,numhabitac as Habitacion, fecha as Fecha,checkin as Checkin, checkout as Checkout from reservacion ", conn);
+            da = new MySqlDataAdapter("SELECT idreservacion as ID, nombreadultos as Nombre,numhabitac as Habitacion, Fecha as Fecha,checkin as Checkin, checkout as Checkout from reservacion ", conn);
             da.Fill(dt);
 
             this.gvc.DataSource = dt;
@@ -36,8 +36,8 @@ namespace Proyecto_final
 
                 txtid.Text = row.Cells[1].Text;
                 txtnomb.Text = row.Cells[2].Text;
-                txtfec.Text = row.Cells[3].Text;
-                txthab.Text = row.Cells[4].Text;
+                txtfec.Text = row.Cells[4].Text;
+                txthab.Text = row.Cells[3].Text;
                 txtchi.Text = row.Cells[5].Text;
                 cho.Text = row.Cells[6].Text;
 

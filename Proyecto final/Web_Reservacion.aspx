@@ -130,7 +130,7 @@
                     <asp:Label ID="Label9" runat="server" Text="Hora"></asp:Label>
                 </td>
                 <td class="auto-style16">
-                    <asp:TextBox ID="txthora" runat="server" Enabled="False" Width="185px"></asp:TextBox>
+                    <asp:TextBox ID="txthora" runat="server" Enabled="False" Width="185px" OnTextChanged="txthora_TextChanged"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>

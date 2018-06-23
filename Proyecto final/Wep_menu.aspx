@@ -11,6 +11,11 @@
     
 </head>
 <body>
+    <div class"row">
+        
+         <a class="btn btn-full" href="confirmacion.aspx">Ver confirmaciones</a>
+
+    </div>
     <form id="form1" runat="server">
         <div class="row">
             <h2>Control de Reservacion</h2>
@@ -55,10 +60,6 @@
         <br />
         <br />
     </form>
-    <div class"row">
-        
-         <a class="btn btn-full" href="confirmacion.aspx">Ver confirmaciones</a>
-
-    </div>
+    
 </body>
 </html>
