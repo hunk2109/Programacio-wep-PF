@@ -31,5 +31,19 @@ namespace Proyecto_final
         {
 
         }
+
+        protected void txtbuscar_TextChanged(object sender, EventArgs e)
+        {
+            MySqlDataAdapter da;
+            DataTable dt = new DataTable();
+
+
+            da = new MySqlDataAdapter("SELECT id_cof as ID, nombre_c as Nombre,habitacion as Habitacion, fecha as Fecha,checkin as Checkin, checkout as Checkout,estatus as Estatus from confirmacion where nombre_c like'%"+txtbuscar.Text+"%' ", conn);
+            da.Fill(dt);
+
+            this.GridView1.DataSource = dt;
+            GridView1.DataBind();
+
+        }
     }
 }

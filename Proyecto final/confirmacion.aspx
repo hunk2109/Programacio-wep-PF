@@ -13,6 +13,11 @@
     <div class="row"><a class="btn btn-full" href="WebForm1.aspx">Volver al inicio</a></div>
     <form id="form1" runat="server">
         <div class="row"><h2>Confirmaciones</h2></div>
+        <div class="row">
+            <asp:Label ID="Label1" runat="server" Text="Buscar"></asp:Label>
+            <asp:TextBox ID="txtbuscar" runat="server" OnTextChanged="txtbuscar_TextChanged"></asp:TextBox>
+
+        </div>
         <div class="col span-1-of-2">
 
             <asp:GridView ID="GridView1" runat="server" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
