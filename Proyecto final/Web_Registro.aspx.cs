@@ -19,9 +19,9 @@ namespace Proyecto_final
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-           try
-            {
-                MySqlConnection cn = new MySqlConnection("Server = localhost; user id = root; password = 12345678; persistsecurityinfo = True; port = 3306; database = hotel; SslMode = none");
+           /*try
+            {*/
+                MySqlConnection cn = new MySqlConnection("Server = localhost; user id = root; password = genobreaker66; persistsecurityinfo = True; port = 3306; database = hotel; SslMode = none");
                 string strMySql;
                 strMySql = "sp_insertar_cliente";
                 MySqlCommand cmd = new MySqlCommand(strMySql, cn);
@@ -49,11 +49,11 @@ namespace Proyecto_final
                 ddlpaishuesp.Text = "";
                 ddlciudadhuesp.Text = "";
                 ddlsectorhuesp.Text = "";
-            }
-            catch
+            //}
+            /*catch
             {
                 Response.Write("<script>alert('Debe seleccionar una opción de la lista') </Script>");
-            }
+            }*/
         }
 
         protected void Button1_Load(object sender, EventArgs e)

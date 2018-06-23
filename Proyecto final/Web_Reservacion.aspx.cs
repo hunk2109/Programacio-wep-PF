@@ -13,7 +13,7 @@ namespace Hotel
     public partial class Web_Reservacion : System.Web.UI.Page
     {
 
-        MySqlConnection conn = new MySqlConnection("server=localhost;user id=root;password=12345678;persistsecurityinfo=True;port=3306;database=hotel;SslMode=none");
+        MySqlConnection conn = new MySqlConnection("server=localhost;user id=root;password=genobreaker66;persistsecurityinfo=True;port=3306;database=hotel;SslMode=none");
 
 
 
@@ -68,7 +68,7 @@ namespace Hotel
 
             daa.Fill(dss, "tiporeserva");
             cbotiporesevacion.DataSource = dss.Tables[0].DefaultView;
-            cbotiporesevacion.DataTextField = "descripreserva";
+            cbotiporesevacion.DataTextField = "descriptiporeserva";
             cbotiporesevacion.DataValueField = "idtiporeserva";
 
             cbotiporesevacion.DataBind();
@@ -112,15 +112,16 @@ namespace Hotel
             MySqlDataAdapter da;
             DataTable dt = new DataTable();
 
-            //try
-            //{
-            da = new MySqlDataAdapter("SELECT  idhuesped AS Codigo,nombrehuesp AS Nombres,apellidohuesp AS Apellidos,cedulahuesp AS Cedula FROM huesped WHERE cedulahuesp  LIKE '%" + this.txtconsultar.Text + "%'", conn);
-            da.Fill(dt);
 
-            this.GridView1.DataSource = dt;
-            GridView1.DataBind();
+            {
+                da = new MySqlDataAdapter("SELECT  idhuesped AS Codigo,nombrehuesped AS Nombres,apellidohuesped AS Apellidos,cedulahuesped AS Cedula FROM huesped WHERE cedulahuesped  LIKE '%" + this.txtconsultar.Text + "%'", conn);
+                da.Fill(dt);
 
-            Panel1.Visible = true;
+                this.GridView1.DataSource = dt;
+                GridView1.DataBind();
+
+                Panel1.Visible = true;
+            }
 
 
 

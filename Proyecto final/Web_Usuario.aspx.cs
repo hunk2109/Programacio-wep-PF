@@ -32,7 +32,7 @@ namespace Hotel
 
             daa.Fill(dss, "tipousuario");
             cbousuario.DataSource = dss.Tables[0].DefaultView;
-            cbousuario.DataTextField = "descritipopusuario";
+            cbousuario.DataTextField = "DescripTipoUsuario";
             cbousuario.DataValueField = "idtipousuario";
 
             cbousuario.DataBind();
