@@ -4,8 +4,18 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <link rel="stylesheet" type="text/css" href="recursos/css/Grid.css"/>
+    <link rel="stylesheet" type="text/css" href="recursos/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="recursos/css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="recursos/css/ionicons.min.css"/>
+    <link rel="stylesheet" type="text/css" href="recursos/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="recursos/css/queries.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100i,300,300i,400" rel="stylesheet"/>
+
     <title>Registro de Clientes - Campo Verde</title>
+    
     <style type="text/css">
         .auto-style1 {
             width: 58%;
@@ -13,18 +23,35 @@
         .auto-style2 {
             margin-left: 40px;
         }
+        .auto-style3 {
+            font-weight: bold;
+        }
+        .auto-style4 {
+            color: #A3BD31;
+        }
     </style>
 </head>
 <body>
+     <ul>
+         <li><a class="btn  btn-ghost js-btn-full" href="WebForm1.aspx">Volver al inicio</a> </li>
+         </ul>
     <form id="form1" runat="server">
     <div>
     <div class="row">
-                    <img src="recursos/img/logo.png" alt="logo" class="logo">
-                        <h1>Disfruta de la experiencia Campo Verde!</h1>
-                        <h1>Si aún no eres cliente, regístrate y disfrutarás de increibles ofertas</h1>
-                        <h4>Registro de Clientes</h4>
+                        
+                        <p><img src="recursos/img/logo.png" alt="logo" class="logo"/></p>
+                        <h4>Disfruta de la experiencia Campo Verde!</h4>
+                        <h4>Si aún no ere<strong>s cliente, regístrate y disfrutarás de increibles ofertas</strong></h4>
+                      
+                        
     </div>
         <table class="auto-style1">
+            <tr>
+                <td class="auto-style4" colspan="5"><strong class="auto-style3">Registro de Clientes</strong></td>
+                <td>
+                    <strong></strong>
+                </td>
+            </tr>
             <tr>
                 <td>Nombres:</td>
                 <td>
@@ -102,5 +129,6 @@
     
     </div>
     </form>
+	<p>Copyright &copy; 2018 by Campo Verde. Derechos reservados </p>
 </body>
 </html>
