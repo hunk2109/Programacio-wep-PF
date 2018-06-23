@@ -29,6 +29,7 @@ namespace Proyecto_final
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            txtconf.Text = GridView1.SelectedRow.Cells[1].Text;
 
         }
 
@@ -44,6 +45,22 @@ namespace Proyecto_final
             this.GridView1.DataSource = dt;
             GridView1.DataBind();
 
+        }
+
+        protected void btnborrar_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string cmd = "delete from confirmacion where id_cof = " + txtconf.Text + "";
+            MySqlCommand insertion = new MySqlCommand(cmd, conn);
+            if (insertion.ExecuteNonQuery() > 0)
+            {
+                Response.Write("<script>alert('Confirmacion borrada!') </Script>");
+            }
+
+            else
+            {
+                Response.Write(" < script > alert('error revise la Confirmacion!') </ Script > ");
+            }
         }
     }
 }

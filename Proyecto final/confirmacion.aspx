@@ -20,8 +20,17 @@
         </div>
         <div class="col span-1-of-2">
 
+            <asp:Label ID="Label2" runat="server" Text="ID de la Confirmacion"></asp:Label>
+            <asp:TextBox ID="txtconf" runat="server" ReadOnly="True"></asp:TextBox>
+            <br />
+
+
+
             <asp:GridView ID="GridView1" runat="server" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
                 <AlternatingRowStyle BackColor="#CCCCCC" />
+                <Columns>
+                    <asp:CommandField ShowSelectButton="True" />
+                </Columns>
                 <FooterStyle BackColor="#CCCCCC" />
                 <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
                 <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
@@ -31,6 +40,10 @@
                 <SortedDescendingCellStyle BackColor="#CAC9C9" />
                 <SortedDescendingHeaderStyle BackColor="#383838" />
             </asp:GridView>
+
+            <br />
+            <br />
+            <asp:Button ID="btnborrar" runat="server" Text="Borrar" OnClick="btnborrar_Click" />
 
         </div>
     </form>

@@ -26,9 +26,9 @@ namespace Hotel
             Panel2.Visible = false;
 
 
-            txthora.Text = System.DateTime.Now.ToLongTimeString();
+            txthora.Text = System.DateTime.Now.ToShortDateString();
 
-            txtfecha.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            txtfecha.Text = DateTime.Now.ToString("dd/MM/yyyy");
             
             autogenerar();
             llenatipo();

@@ -83,8 +83,8 @@
                     <asp:DropDownList ID="ddlsectorhuesp" runat="server" AppendDataBoundItems="true">
                         <asp:ListItem Value=""></asp:ListItem>
                         <asp:ListItem Value="1">LOS JARDINES</asp:ListItem>
-                        <asp:ListItem Value="2">LA ESMERALDA</asp:ListItem>
-                        <asp:ListItem Value="3">LAS COLINAS</asp:ListItem>
+                        <asp:ListItem Value="2">LA LOTERIA</asp:ListItem>
+                        <asp:ListItem Value="3">LOS REYES</asp:ListItem>
                     </asp:DropDownList>
                 </td>
             </tr>
