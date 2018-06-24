@@ -29,6 +29,9 @@
         .auto-style4 {
             color: #A3BD31;
         }
+        .auto-style5 {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -72,19 +75,15 @@
                     <asp:TextBox ID="txttelefonohuesp" runat="server"></asp:TextBox>
                 </td>
                 <td>Correo:</td>
-                <td class="auto-style2">
+                <td class="auto-style2" colspan="3">
                     <asp:TextBox ID="txtcorreohuesp" runat="server"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>Dirección:</td>
-                <td colspan="3">
+                <td colspan="5">
                     <asp:TextBox ID="txtdireccionhuesp" runat="server" Width="365px"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>País:</td>
@@ -116,10 +115,9 @@
                 </td>
             </tr>
             <tr>
-                <td>
-                    <asp:Button ID="Button1" runat="server" Text="Enviar" OnClick="Button1_Click" OnLoad="Button1_Load" />
+                <td class="auto-style5" colspan="2">
+                    <asp:Button ID="Button1" runat="server" Text="Enviar" OnClick="Button1_Click" OnLoad="Button1_Load" Height="40px" Width="90px" />
                 </td>
-                <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -129,6 +127,6 @@
     
     </div>
     </form>
-	<p>Copyright &copy; 2018 by Campo Verde. Derechos reservados </p>
+	<p>Copyright &copy; 2018 by Campo Verde. Derechos reservados</p>
 </body>
 </html>
